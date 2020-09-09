@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+.top{ border:1px solid #ccc; font-size:14px; background-color:#000;}
+.top a{ color:#fff;}
+.top a:hover{ text-decoration:none; color:#999;}
+.top a>.a{ font-size:20px; letter-spacing:5px; font-weight:bold;}
+.top>.container>.row>div{ height:45px; line-height:45px; text-align:left;}
+
+.fm{ background:#ccc; width:300px; border:1px solid #ccc; display:none;}
+
+.mydiv{ width:400px; height:180px; border:1px solid #ccc; background-color:#ccc; display:none; 
+	opacity:0.5;position: fixed; top:50px; left:5px; }
+.mydiv .wold{ font-size:20px; font-weight:bolder; text-align:center; color:red; 
+	line-height:20px; margin:5px;}
+
+.mynav{ background-color:#fff; border:none; border-bottom:1px solid #ccc; margin-bottom:0;}
+.mynav .navbar-brand{ height:60px; line-height:30px;}
+.mynav .navbar-brand:hover{ color:#000; background-color:#ccc;}
+.mynav .navbar-nav>li>a{ height:60px; line-height:30px;}
+.mynav .navbar-nav>li>a:hover{ color:#000; background-color:#ccc; font-weight:bold;}
+.mynav .navbar-nav>.active>a{ background-color:#fff;}
+.mynav .navbar-nav>.active>a:hover{ color:#000; background-color:#ccc;}
+.mynav .navbar-toggle{ margin-top:12px; margin-bottom:0px;}
+
+#myCarousel{ margin-top:5px; background:#ccc;}
+
+.mycollapse{ background:#999; border:1px solid #999;width:100%; margin-top:5px;}
+.mycollapse a{color:#000;}
+.mycollapse a:hover{ color:#666; text-decoration:none;}
+.mycollapse a span{letter-spacing:5px; font-weight:bold;}
+
+.fter{background:#ccc; text-align:center; padding-top:20px 0;}
+.fter h3{ color:#ff3548;}
+.fter p{font-size:10px; color:#ff3548;}
+.fter .r1,.r2{ margin-top:10px;}
+
+
