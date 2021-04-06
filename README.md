@@ -1,4 +1,3 @@
-＃测试美食
+#美食网页
 
-Bootstrap，vue框架  
-jQuery库
+简单静态网页，Bootstrap，vue，jQuery
